@@ -1,0 +1,138 @@
+.bg-full-image {
+  background: url(../images/login_background.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  width: auto;
+}
+
+
+.form-signin {
+    width: 100%;
+    max-width: 360px;
+    padding: 15px;
+    margin: auto;
+  }
+
+  .nav .nav-tabs .nav-item .nav-link.active {
+    background-color: var(--bs-primary);
+    color: var(--bs-light);
+  }
+
+  #side-menu-home {
+    height: 490px;
+    width: 200px;
+  }
+
+  #side-menu {
+    height: auto;
+    width: 200px;
+  }
+
+  #menu-docs li:hover>ul.dropdown-menu {
+    display: block;
+  }
+
+  .dropdown-submenu {
+    position: relative;
+  }
+
+  .dropdown-submenu>.dropdown-menu {
+    top: 0;
+    margin-top: -5px;
+    left: 100%;
+  }
+
+  /*.dropdown-menu>li>a:hover::after {
+    text-decoration: underline;
+    transform: rotate(-90deg);
+  }*/
+
+  .toggle_Icpe {
+    transition: .3s;
+  }
+
+/* Cutom page*/
+  #logo-login {
+    width: 25vh;
+  }
+
+
+  .btn-bs-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #04d115;
+    --bs-btn-border-color: #04d115;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #12b31f;
+    --bs-btn-hover-border-color: #29c936;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #29c936;
+    --bs-btn-active-border-color: #0caa19;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #04d115;
+    --bs-btn-disabled-border-color: #04d115;
+    }
+
+    .btn.text-bs-primary:hover {
+      color: #12b31f;
+      background-color: var(--bs-btn-hover-bg);
+      border-color: #12b31f;
+    }
+
+  .text-bs-primary {
+    --bs-text-opacity: 1;
+    color: #04d115;
+  }
+
+  a {
+    color: #04d115;
+  }
+
+  a:hover {
+    color: #12b31f;
+  }
+
+  /* Checkbox */
+  .form-check-input:checked {
+    background-color: #04d115;
+    border-color: #04d115;
+  }
+  .form-check-input[type=checkbox]:indeterminate {
+    background-color: #04d115;
+    border-color: #04d115;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10h8'/%3e%3c/svg%3e");
+  }
+  .form-check-input:focus {
+  border-color: #8df595;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(13, 253, 13, 0.25);
+}
+
+/*Navlink */
+.nav-link{
+  color: #04d115;
+}
+
+.nav-link:hover {
+  color: #12b31f;
+}
+
+/*Background*/
+.bg-bs-primary {
+  background-color: #29c936 !important;
+}
+
+/* Scrollable table */
+.scrollable-table {
+  max-height: 400px;
+  overflow: auto;
+}
+
+.table-fixed {
+  position: sticky;
+  top: 0px;
+}

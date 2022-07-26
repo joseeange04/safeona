@@ -1,0 +1,7 @@
+Option +FollowSymlinks -MultiViews
+RewriteEngine on
+RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^(.*)$
